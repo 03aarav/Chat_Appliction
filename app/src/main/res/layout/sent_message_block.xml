@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/sent_message"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Hii my name is Aarav"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25dp"
+       android:outlineAmbientShadowColor="@color/black"
+        android:outlineProvider="background"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/textbox"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
